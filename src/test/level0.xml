@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_111" class="java.beans.XMLDecoder">
+ <object class="loader.level.Level">
+  <void property="boxes">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="loader.level.BoxItem" id="BoxItem0"/>
+    </void>
+   </object>
+  </void>
+  <void property="levelMap">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location"/>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>1</int>
+          </void>
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>2</int>
+          </void>
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>3</int>
+          </void>
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>4</int>
+          </void>
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.PlayerItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location" id="Location0">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>5</int>
+          </void>
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object idref="BoxItem0"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.TargetTile" id="TargetTile0">
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>6</int>
+          </void>
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>4</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>5</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>6</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>8</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="loader.level.Tile">
+        <void property="contains">
+         <object class="loader.level.WallItem"/>
+        </void>
+        <void property="location">
+         <object class="loader.level.Location">
+          <void property="x">
+           <int>7</int>
+          </void>
+          <void property="y">
+           <int>9</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="playerLocation">
+   <object idref="Location0"/>
+  </void>
+  <void property="stopWatch">
+   <object class="utils.StopWatch">
+    <void property="startTime">
+     <long>1497692926554</long>
+    </void>
+   </object>
+  </void>
+  <void property="targets">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object idref="TargetTile0"/>
+    </void>
+   </object>
+  </void>
+  <void property="x">
+   <int>8</int>
+  </void>
+  <void property="y">
+   <int>10</int>
+  </void>
+ </object>
+</java>
