@@ -1,7 +1,0 @@
-move left
-move down
-move right
-move right
-move right
-move right
-move right

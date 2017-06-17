@@ -1,0 +1,7 @@
+xxxxxxxxxx
+x   B   @x
+x A      x
+x        x
+x B      x
+x      @ x
+xxxxxxxxxx

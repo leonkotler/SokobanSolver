@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SokobanSolver">
+    <output-path>$PROJECT_DIR$/out/artifacts/SokobanSolver</output-path>
+    <root id="archive" name="SokobanSolver.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="SokobanSolver" />
+    </root>
+  </artifact>
+</component>

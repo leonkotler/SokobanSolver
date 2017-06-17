@@ -21,26 +21,30 @@ public class Run {
 
     public static void main(String[] args){
 
-        if(args[0] == null){
-            System.out.println("please provide file path. exiting..");
+        if(args.length<2){
+            System.out.println("Please provide a level file and a file for solution. ");
             System.exit(1);
         }
 
         // In case you want to create an Obj and XML level from text level
         //convertTxtLevel(args[0]);
 
+        // Solving the level
         SokobanPlannable sp = new SokobanPlannable(args[0],new BFS<Position>(),new BFS<Position>());
+        //SokobanPlannable sp = new SokobanPlannable(args[0],new Dijkstra<Position>(),new Dijkstra<Position>());
         SokobanSolver solver = new SokobanSolver(sp,new Strips());
         solver.setHeuristic(new SokobanHeuristic()); // Setting heuristic method to the solver
         List<PlanAction> plan = solver.solve(); // Getting the solution
 
         // Writing the solution to a file
         try {
-            PrintWriter out = new PrintWriter(new File("solution.txt"));
+            PrintWriter out = new PrintWriter(new File(args[1]));
             for(PlanAction a : plan)
                 out.println(a);
             out.close();
         } catch (FileNotFoundException e) {e.printStackTrace();}
+
+        System.out.println("Solved! Please check " + args[1]);
 
     }
 
